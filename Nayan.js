@@ -13,7 +13,7 @@ module.exports = async ({ api, event }) => {
       note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
     },
     greetings: {
-      status: false,
+      status: true,
       morning: `goodmorning everyone, have a nice day.`,
       afternoon: `goodafternoon everyone, don't forget to eat your lunch.`,
       evening: `goodevening everyone, don't forget to eat.`,
@@ -21,7 +21,7 @@ module.exports = async ({ api, event }) => {
       note: 'greetings every morning, afternoon and evening. the timezone is located in Asia/Dhaka'
     },
     reminder: {
-      status: false,
+      status: true,
       time: 40, // 40 minutes
       msg: 'reminder test',
       note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false'
@@ -37,7 +37,7 @@ module.exports = async ({ api, event }) => {
       note: 'to avoid problems, enable periodic bot restarts, set the status to false if you want to disable auto restart function.'
     },
     accpetPending: {
-      status: false,
+      status: true,
       time: 10, // 10 minutes
       note: 'approve waiting messages after a certain time, set the status to false if you want to disable auto accept message request.'
     }
