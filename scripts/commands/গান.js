@@ -51,10 +51,10 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
     try {
         var path = `${__dirname}/cache/1.mp3`
         var data = await downloadMusicFromYoutube('https://www.youtube.com/watch?v=' + handleReply.link[event.body -1], path);
-        if (fs.statSync(path).size > 26214400) return api.sendMessage('The file cannot be sent because the capacity is greater than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
+        if (fs.statSync(path).size > 26214400) return api.sendMessage('আপনার গানটি সেন্ড করতে ব্যার্থ,কারণ ফাইলটি ২৫ এমবি এর উর্ধ্বে;', event.threadID, () => fs.unlinkSync(path), event.messageID);
         api.unsendMessage(handleReply.messageID)
         return api.sendMessage({ 
-		body: `🎵 নাম: ${data.title}\n🎶 ইউটিউব চ্যানেল : ${data.author}\n⏱️ সময়: ${this.convertHMS(data.dur)}\n👀 ভিউ: ${data.viewCount}\n👍 লাইক: ${data.likes}\n⏱️গান প্রসেস করার সময়: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====CYBER_X_MAHABUB====💿`,
+		body: `🎵 গানের নাম: ${data.title}\n🎶 ইউটিউব চ্যানেল : ${data.author}\n⏱️ সময়: ${this.convertHMS(data.dur)}\n👀 ভিউ: ${data.viewCount}\n👍 লাইক: ${data.likes}\n⏱️প্রক্রিয়াকরণের সময়: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====CYBER_X_MAHABUB====💿`,
             attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
          event.messageID)
             
@@ -81,9 +81,9 @@ module.exports.run = async function ({ api, event, args }) {
     if (args.join(" ").indexOf("https://") == 0) {
         try {
             var data = await downloadMusicFromYoutube(args.join(" "), path);
-            if (fs.statSync(path).size > 26214400) return api.sendMessage('Unable to send files because the capacity is greater than 25MB .', event.threadID, () => fs.unlinkSync(path), event.messageID);
+            if (fs.statSync(path).size > 26214400) return api.sendMessage('আপনার গানটি সেন্ড করতে ব্যার্থ,কারণ ফাইলটি ২৫ এমবি এর উর্ধ্বে;', event.threadID, () => fs.unlinkSync(path), event.messageID);
             return api.sendMessage({ 
-                body: `🎵 Title: ${data.title}\n🎶 Name Channel: ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes: ${data.likes}\n⏱️ Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====DISME PROJECT====💿`,
+                body: `🎵 গানের নাম: ${data.title}\n🎶 ইউটিউব চ্যানেল: ${data.author}\n⏱️ সময়: ${this.convertHMS(data.dur)}\n👀 ভিউ: ${data.viewCount}\n👍 লাইক: ${data.likes}\n⏱️ প্রক্রিয়াকরণের সময়: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====CYBER_X_MAHABUB====💿`,
                 attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
             event.messageID)
             
@@ -101,7 +101,7 @@ module.exports.run = async function ({ api, event, args }) {
               num = num+=1
               msg += (`${num} - ${value.title} (${value.length.simpleText})\n\n`);
             }
-            var body = `»🔎 There's ${link.length} the result coincides with your search keyword:\n\n${msg}» Reply(feedback) select one of the searches above `
+            var body = `»🔎 এইযে ${link.length} অনুযায়ী আপনার অনুসন্ধানের রেজাল্ট:\n\n${msg}» রিপ্লাই করুন (feedback) এখন আপনি যেই গানটি শুনতে চান.!(অবশ্যই ইংরেজি তে 1-10 এর মধ্যে রিপ্লাই করতে হবে)`
             return api.sendMessage({
               body: body
             }, event.threadID, (error, info) => global.client.handleReply.push({
@@ -112,7 +112,7 @@ module.exports.run = async function ({ api, event, args }) {
               link
             }), event.messageID);
           } catch(e) {
-            return api.sendMessage('An error has occurred, please try again in a moment!!\n' + e, event.threadID, event.messageID);
+            return api.sendMessage('দুঃখিত,দয়া করে কিছুক্ষণ পরে আবার চেষ্টা করুন!!\n' + e, event.threadID, event.messageID);
         }
     }
                                                                                                                                                                                                        }
