@@ -1,6 +1,6 @@
 /** Đổi Credit ? Bọn t đã không mã hóa cho mà edit rồi thì tôn trọng nhau tý đi ¯\_(ツ)_/¯ **/
 module.exports.config = {
-  name: "tt",
+  name: `status`,
   version: "1.0.0", 
   permission: 0,
   credits: "nayan",
@@ -18,8 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["উপন‍্যাসের  উপসংহারে  যদি বিচ্ছেদ  লিখা থাকে\n\n'' তবে সুচনা কেনো এত রঙিন হয়''!! "
-             ];
+   var hi = ["উপন‍্যাসের  উপসংহারে  যদি বিচ্ছেদ  লিখা থাকে\n\n'' তবে সুচনা কেনো এত রঙিন হয়''!! " ];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
   "https://i.imgur.com/bMz46lG.mp4",
@@ -46,7 +45,7 @@ const fs = global.nodemodule["fs-extra"];
 "",
 "",
 "",
-"https://i.imgur.com/bMz46lG.mp4",
+""
 
 
   
