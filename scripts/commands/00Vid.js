@@ -21,6 +21,6 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     api.setMessageReaction("🫠", event.messageID, (err) => {}, true)
 		}
 	}
-	module.exports😞.run = function({ api, event, client, __GLOBAL }) {
+	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
 }
