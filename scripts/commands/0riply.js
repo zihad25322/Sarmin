@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "sad06",
     version: "1.1.1",
 prefix: true,
-	Permssion: 0,
+	permssion: 0,
 	credits: "John Lester", 
 	description: "Just Respond",
 	category: "no prefix",
@@ -33,4 +33,4 @@ react.includes("🤤")) {
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-  
+	   }
