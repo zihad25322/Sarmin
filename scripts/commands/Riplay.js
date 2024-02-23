@@ -1,8 +1,8 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "reply",
+	name: "reply559",
     version: "1.1.1",
-prefix: true,
+  prefix: true,
 	permssion: 0,
 	credits: "John Lester", 
 	description: "Just Respond",
