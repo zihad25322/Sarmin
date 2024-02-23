@@ -1,19 +1,18 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "😓",
-    version: "1.0.1",
-	Permssion: 0,
- prefix: true,
-	credits: "VanHung - Fixed by LTD", 
-	description: "hihihihi",
-	Category: "no prefix",
-	usages: "😓",
+	name: "sad00",
+    version: "1.1.1",
+prefix: true,
+	permssion: 0,
+	credits: "John Lester", 
+	description: "Just Respond",
+	category: "no prefix",
     cooldowns: 5, 
 };
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("sad")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0) {
+	if (event.body.indexOf("💀")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0) {
 		var msg = {
 				body: "-আলোর খোঁজ করতে গিয়ে- অন্ধকারে হারিয়ে গেছি আমি 😅💔..-!! 🙂 \nミM　Á　H　Â　B　Ü　 Rミ",
 				attachment: fs.createReadStream(__dirname + `/cache/received_908287014131424.mp4`)
