@@ -1,15 +1,15 @@
-const fs = global.nodemodule["fs-extra"];
+const fs = require("fs");
 module.exports.config = {
-  name: "goibot",
-  version: "1.0.1",
+	name: "sad06",
+    version: "1.1.1",
 prefix: true,
-permssion: 0,
-  credits: "Mod by John Lester",
-  description: "goibot",
-  commandCategory: "Noprefix",
-  usages: "noprefix",
-  cooldowns: 5,
+	permssion: 0,
+	credits: "John Lester", 
+	description: "Just Respond",
+	category: "no prefix",
+    cooldowns: 5, 
 };
+
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
   var { threadID, messageID, reason } = event;
   const moment = require("moment-timezone");
