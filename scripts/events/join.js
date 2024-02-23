@@ -39,7 +39,7 @@ ____________________________________
 𝙈𝘼𝙃𝘼𝘽𝙐𝙍_কে নক করতে পারেন 
 👉FB link: https://www.facebook.com/profile.php?id=100077458062491
 -
-`, attachment: fs.createReadStream(__dirname + "/nayan/join/received_908287014131424.mp4")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")} ,threadID));
 	}
 	else {
 		try {
