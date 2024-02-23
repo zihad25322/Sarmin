@@ -54,10 +54,10 @@ react.includes("vuda") ||
 react.includes("heda") || 
 react.includes("bap")) {
 		var msg = {
-				body: "- ভালোবাসা নামক আব্লামি করতে মন চাইলে বস মাহাবুব এর ইনবক্স চলে জাও-!!🌚"
+				body: "গালাগালি করলে জিব্বা কাইটা দিবো কিন্তু -!!😤👊🔪"
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😤", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
