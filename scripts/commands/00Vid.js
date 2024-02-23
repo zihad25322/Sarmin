@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if (event.body.indexOf("sad")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0) {
 		var msg = {
 				body: "-আলোর খোঁজ করতে গিয়ে- অন্ধকারে হারিয়ে গেছি আমি 😅💔..-!! 🙂 \nミM　Á　H　Â　B　Ü　 Rミ",
-				attachment: fs.createReadStream(__dirname + `/noprefix/dk.mp4`)
+				attachment: fs.createReadStream(__dirname + `/cache/received_908287014131424.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🫠", event.messageID, (err) => {}, true)
