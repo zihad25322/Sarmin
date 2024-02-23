@@ -69,11 +69,11 @@ ____________________________________
 
 			if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-			const randomPath = readdirSync(join(__dirname, "cache", "joinGif", "randomgif"));
+			const randomPath = readdirSync(join(__dirname, "Nayan", "join", "wlc7.gif"));
 
 			if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathGif), mentions }
 			else if (randomPath.length != 0) {
-				const pathRandom = join(__dirname, "cache", "joinGif", "randomgif", `${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
+				const pathRandom = join(__dirname, "Nayan", "join", "wlc7.gif", `${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
 				formPush = { body: msg, attachment: createReadStream(pathRandom), mentions }
 			}
 			else formPush = { body: msg, mentions }
