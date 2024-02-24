@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "sad0020",
+	name: "sad60",
     version: "1.1.1",
 prefix: true,
 	permssion: 0,
@@ -12,9 +12,9 @@ prefix: true,
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("🤯")==0 |(event.body.indexOf("😠")==0 || event.body.indexOf("😡")==0 || event.body.indexOf("🤬")==0 || event.body.indexOf("😤")==0) {
+	if (event.body.indexOf("😡")==0 || event.body.indexOf("😠")==0 || event.body.indexOf("🤬")==0 || event.body.indexOf("😤")==0) {
 		var msg = {
-				body: "-রাগ করো কেনো গো -!!🥺😜",
+				body: "-রাগ করো কেনো গো-!!🥺",
 				attachment: fs.createReadStream(__dirname + `/cache/ragkoro.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
