@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "sad0960",
+	name: "sad090",
     version: "1.1.1",
 prefix: true,
 	permssion: 0,
