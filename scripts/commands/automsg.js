@@ -1,10 +1,11 @@
 module.exports.config = {
-    name: "autotime",
+  name: "autotime",
   version: "1.0.0",
   permission: 0,
+  prefix: true,
   credits: "Nayan",
   description: "msg",
-  category: "user", 
+  category: "awto send msg", 
   usages: "",
   cooldowns: 5,
   dependencies: {
@@ -12,7 +13,7 @@ module.exports.config = {
 };
 const nam = [{
     timer: '12:00:00 AM',
-    message: ['~ এখন রাত ১১টা বাজে\nখাউয়া দাউয়া করে নেউ😙']
+    message: ['~ এখন রাত ১১টা বাজে\খাউয়া দাউয়া করে নেউ😙']
 },
              {
     timer: '1:00:00 AM',
