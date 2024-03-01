@@ -2,7 +2,7 @@ const fs = require("fs");
 module.exports.config = {
 	name: "sad06",
     version: "1.1.1",
-prefix: true,
+prefix: false,
 	permssion: 0,
 	credits: "John Lester", 
 	description: "Just Respond",
