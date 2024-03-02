@@ -1,10 +1,11 @@
 module.exports.config = {
   name: "me",
   version: "1.0.0",
-  hasPermssion: 0,
-  credits: "Nayan",//imran api
+  permssion: 0,
+  prefix:true,
+ credits: "Nayan",//imran api
   description: "",
-  commandCategory: "Image",
+  commandCategory: "with prefix",
   usages: "bing cat",
   cooldowns: 5
 };
