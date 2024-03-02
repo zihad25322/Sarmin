@@ -1,14 +1,26 @@
+/**
+* @author ProCoderMew
+* @warn Do not edit code or edit credits
+*/
+
 module.exports.config = {
-  name: "me",
-  version: "1.0.0",
-  permssion: 0,
-  prefix:true,
- credits: "Nayan",//imran api
-  description: "",
-  commandCategory: "with prefix",
-  usages: "bing cat",
-  cooldowns: 5
+    name: "me",
+    version: "2.0.0",
+    permssion: 0,
+    credits: "Mohammad Nayan",
+    description: "",
+    prefix: true,
+    category: "Love",
+    usages: "[tag]",
+    cooldowns: 5,
+    dependencies: {
+        "axios": "",
+        "fs-extra": "",
+        "path": "",
+        "jimp": ""
+    }
 };
+
 
 module.exports.run = async function({ api, event, args }) {
     const axios = require("axios");
