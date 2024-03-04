@@ -2,15 +2,14 @@ const axios = require('axios');
 const fs = require('fs');
 
 module.exports.config = {
-  name: "janu",
-  version: "3.8",
-  Permission: 0,
-  prefix: false,
- credits: "Mohammad Rahad", 
-  description: "sim",
-  commandCategory: "sim simi fun",
-  usages: "jannat [your query]",
-  cooldowns: 3,
+	name: "sad009",
+    version: "1.1.1",
+prefix: true,
+	permssion: 0,
+	credits: "John Lester", 
+	description: "Just Respond",
+	category: "no prefix",
+    cooldowns: 5, 
 };
 
 module.exports.handleEvent = async function ({ api, event }) {
