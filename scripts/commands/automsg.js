@@ -2,7 +2,7 @@ module.exports.config = {
   name: "autotime",
   version: "1.0.0",
   permission: 0,
-  prefix: true,
+  prefix: false,
   credits: "Nayan",
   description: "msg",
   category: "awto send msg", 
