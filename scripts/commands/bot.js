@@ -19,7 +19,7 @@ module.exports.run = async function({ api, event, args }) {
     const request = require("request")
     const fs = require("fs-extra")
     const prompt = args.join(" ");
-    if (!prompt) return api.sendMessage(`হুম বেবি বলো💋😘`, event.threadID, event.messageID);
+    if (!prompt) return api.sendMessage((`_۵ღ︵🩷🪽 `,`হুম বেবি বলো💋😘`, event.threadID, event.messageID);
     const res = await axios.get(`http://eu4.diresnode.com:3431/sim?type=ask&ask=${prompt}`);
   console.log(res.data)
   
