@@ -5,7 +5,7 @@
   "developermode": false,
   "language": "en",
   "notification": true,
-  "approval": false,
+  "approval": true,
   "BOTNAME": "MAHABUB-BOT",
   "PREFIX": ".",
   "OPERATOR": [
@@ -17,7 +17,8 @@
     "100014754734049",
     "61552248422194",
     "61554014002100",
-    "61551924479083"
+    "61551924479083",
+    "100090163285501"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
