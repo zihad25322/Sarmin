@@ -5,13 +5,12 @@
   "developermode": false,
   "language": "en",
   "notification": true,
-  "approval": true,
+  "approval": false,
   "BOTNAME": "MAHABUB-BOT",
   "PREFIX": ".",
   "OPERATOR": [
     "100014896964436",
-    "100000959749712",
-    "100014754734049"
+    "100000959749712"
   ],
   "ADMINBOT": [
     "100014754734049",
