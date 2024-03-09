@@ -1,14 +1,4 @@
-const fs = global.nodemodule["fs-extra"];
-module.exports.config = {
-  name: "tumi",
-  version: "1.0.1",
-  Permssion: 0,
-  prefix: true,
-  credits: "nayan/mahabub",
-  description: "goibot",
-  commandCategory: "test",
-  cooldowns: 5,
-};
+
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
   var { threadID, messageID, reason } = event;
   const moment = require("moment-timezone");
