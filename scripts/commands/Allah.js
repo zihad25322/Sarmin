@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 0,
   credits: "Imran Ahmed",
   description: "example",
-  prefix: true,
+  prefix: false,
   category: "Fun", 
   usages: "user", 
   cooldowns: 5,
