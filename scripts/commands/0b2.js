@@ -1,56 +1,49 @@
 module.exports.config = {
-    name: "create",
-    version: "1.0.0",
-    permission: 0,
-    credits: "Nayan", //imran
-    description: "",
-    prefix: true,
-    category: "with prefix",
-    usages: "bing prompt",
-    cooldowns: 10,
-},
+  name: "make", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Nayan",
+  description: "example",
+  prefix: true,
+  category: "Fun", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  }
+};
 
-   languages: {
-   "vi": {},
-       "en": {
-           "missing": 'use : /bing cat'
-       }
-   },
-
-start: async function({ nayan, events, args, lang}) {
+module.exports.run = async function({ api, event, args }) {
     const axios = require("axios");
     const fs = require("fs-extra");
-    const request = require("request");
     const prompt = args.join(" ");
-    if(!prompt) return nayan.reply(lang('missing'), events.threadID, events.messageID)
+    const key = this.config.credits;
+    if (!prompt) return api.sendMessage('use : /bing cat', event.threadID, event.messageID); 
 
-  const rndm = ['1o-0Pc00DPMoLU0aH2lBVnY1CcRA24kq6L3SSjJecXHHy-H5ZWYqiLkBO69Ml-p1lmv5SVkOnsj6O3N-u7vL-1qDzpDVP9cpluZ5KO2wCBYhKMcjqJ_461vhJas2M6e41bu8XPu05q8lyqBzXBYT_2Mxuqv-isfBAasVrIO0BGXgW4PRkymiuqgqJov588usI9GIn0jkLbAp90UKuhTcZ4A'] // input your cookie hare
+    const rndm = ['1o-0Pc00DPMoLU0aH2lBVnY1CcRA24kq6L3SSjJecXHHy-H5ZWYqiLkBO69Ml-p1lmv5SVkOnsj6O3N-u7vL-1qDzpDVP9cpluZ5KO2wCBYhKMcjqJ_461vhJas2M6e41bu8XPu05q8lyqBzXBYT_2Mxuqv-isfBAasVrIO0BGXgW4PRkymiuqgqJov588usI9GIn0jkLbAp90UKuhTcZ4A']; //paste your cookie
+    var cookie = rndm[Math.floor(Math.random() * rndm.length)];
 
-  var cookie = rndm[Math.floor(Math.random() * rndm.length)];
+    const res = await axios.get(`https://bing-imran.onrender.com/bing-img?prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
 
-
-  const res = await axios.get(`https://bing-imran.onrender.com/bing-img?prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
-
-  
-  console.log(res.data)
+    console.log(res.data);
     const data = res.data.result;
-  const numberSearch = data.length
+    const numberSearch = data.length;
     var num = 0;
     var imgData = [];
     for (var i = 0; i < parseInt(numberSearch); i++) {
-      let path = __dirname + `/cache/${num+=1}.jpg`;
-      let getDown = (await axios.get(`${data[i]}`, { responseType: 'arraybuffer' })).data;
-      fs.writeFileSync(path, Buffer.from(getDown, 'utf-8'));
-      imgData.push(fs.createReadStream(__dirname + `/cache/${num}.jpg`));
+        let path = __dirname + `/cache/${num += 1}.jpg`;
+        let getDown = (await axios.get(`${data[i]}`, { responseType: 'arraybuffer' })).data;
+        fs.writeFileSync(path, Buffer.from(getDown, 'utf-8'));
+        imgData.push(fs.createReadStream(__dirname + `/cache/${num}.jpg`));
     }
 
-    
-    nayan.reply({
+    await api.sendMessage({
         attachment: imgData,
-        body: "🔍Bing Search Result🔍\n\n📝Prompt: " + prompt + "\n\n#️⃣Number of Images: " + numberSearch
-    }, events.threadID, events.messageID)
+        body: "Bing Search Result\n\nPrompt: " + prompt + "\n\n#Number of Images: " + numberSearch
+    }, event.threadID, event.messageID); 
+
     for (let ii = 1; ii < parseInt(numberSearch); ii++) {
-        fs.unlinkSync(__dirname + `/cache/${ii}.jpg`)
+        fs.unlinkSync(__dirname + `/cache/${ii}.jpg`);
     }
-}
-  
+};
