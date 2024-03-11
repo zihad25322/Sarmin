@@ -1,16 +1,16 @@
 module.exports.config = {
-  name: "পরিচয়",
-  version: "1.0.1",
-  Permssion: 0,
-  prefix:true,
-  credits: "mahabub Rahman",
-  description: "",
-  Category: "noprefix",
-  usages: "user",
-  cooldowns: 0,
-  denpendencies: {
-    "fs-extra": "",
-    "request": ""
+  name: "পরিচয়", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Imran Ahmed",
+  description: "example",
+  prefix: false,
+  category: "Fun", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
   }
 };
 
