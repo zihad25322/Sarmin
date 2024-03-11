@@ -21,7 +21,7 @@ const fs = global.nodemodule["fs-extra"];
    var hi = [" ANIME"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-   "https://drive.google.com/uc?id=1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi/view?usp=drivesdk",
+   "https://drive.google.com/uc?id=1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi",
    "https://drive.google.com/uc?id=",
     ""
 
