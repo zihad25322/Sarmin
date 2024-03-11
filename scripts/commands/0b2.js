@@ -21,7 +21,7 @@ module.exports.run = async function({ api, event, args }) {
     const key = this.config.credits;
     if (!prompt) return api.sendMessage('use : /bing cat', event.threadID, event.messageID); 
 
-    const rndm = ['1o-0Pc00DPMoLU0aH2lBVnY1CcRA24kq6L3SSjJecXHHy-H5ZWYqiLkBO69Ml-p1lmv5SVkOnsj6O3N-u7vL-1qDzpDVP9cpluZ5KO2wCBYhKMcjqJ_461vhJas2M6e41bu8XPu05q8lyqBzXBYT_2Mxuqv-isfBAasVrIO0BGXgW4PRkymiuqgqJov588usI9GIn0jkLbAp90UKuhTcZ4A']; //paste your cookie
+    const rndm = ['1o-0Pc00DPMoLU0aH2lBVnY1CcRA24kq6L3SSjJecXHHy-H5ZWYqiLkBO69Ml-p1lmv5SVkOnsj6O3N-u7vL-1qDzpDVP9cpluZ5KO2wCBYhKMcjqJ_461vhJas2M6e41bu8XPu05q8lyqBzXBYT_2Mxuqv-isfBAasVrIO0BGXgW4PRkymiuqgqJov588usI9GIn0jkLbAp90UKuhTcZ4A','1o-0Pc00DPMoLU0aH2lBVnY1CcRA24kq6L3SSjJecXHHy-H5ZWYqiLkBO69Ml-p1lmv5SVkOnsj6O3N-u7vL-1qDzpDVP9cpluZ5KO2wCBYhKMcjqJ_461vhJas2M6e41bu8XPu05q8lyqBzXBYT_2Mxuqv-isfBAasVrIO0BGXgW4PRkymiuqgqJov588usI9GIn0jkLbAp90UKuhTcZ4A']; //paste your cookie
     var cookie = rndm[Math.floor(Math.random() * rndm.length)];
 
     const res = await axios.get(`https://bing-imran.onrender.com/bing-img?prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
