@@ -21,8 +21,8 @@ const fs = global.nodemodule["fs-extra"];
    var hi = [" ANIME"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-   "",
-   "https://drive.google.com/uc?id=16lOXxs-Z9u-mxttFnwWzdUHvrP55aHnZ"
+   "https://drive.google.com/file/d/1-71QF5wQaQy6N_JFVRYbHeKJxRX6ryXp/view?usp=drivesdk",
+   ""
 
 ];
      var callback = () => api.sendMessage({body:`「 ${know} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
