@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "girlvideo", 
+  name: "😒", 
   version: "1.0.0", 
   permission: 0,
   credits: "Imran Ahmed_X_Mahabub Rahman",
@@ -18,7 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["-💖 VIDEO FROM MAHABUB RAHMAN💖-"];
+   var hi = ["-এইদিকে দেখো জানু এইতো আমি -!!🤭"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
