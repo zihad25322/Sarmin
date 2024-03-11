@@ -1,26 +1,34 @@
-const fs = require("fs");
 module.exports.config = {
-	name: "sad009",
-    version: "1.1.1",
-prefix: true,
-	permssion: 0,
-	credits: "John Lester", 
-	description: "Just Respond",
-	category: "no prefix",
-    cooldowns: 5, 
+  name: "🙂", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Nayan",
+  description: "example",
+  prefix: false,
+  category: "Fun", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  }
 };
 
-module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
-	var { threadID, messageID } = event;
-	if (event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0) {
-		var msg = {
-				body: "-উপন‍্যাসের  উপসংহারে  যদি বিচ্ছেদ  লিখা থাকে  \n'' তবে সুচনা কেনো এত রঙিন হয়''!! 🖤 \nミM　Á　H　Â　B　Ü　 Rミ",
-				attachment: fs.createReadStream(__dirname + `/cache/dk.mp4`)
-			}
-			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("", event.messageID, (err) => {}, true)
-		}
-	}
-	module.exports.run = function({ api, event, client, __GLOBAL }) {
+module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
+const axios = global.nodemodule["axios"];
+const request = global.nodemodule["request"];
+const fs = global.nodemodule["fs-extra"];
+   var hi = [""];
+  var know = hi[Math.floor(Math.random() * hi.length)];
+  var link = [
+   "https://drive.google.com/uc?id=14rPSaCJzfNa8cc2pM-YJvE16bZVlH7pV",
+    "",
+    "",
+    ""
 
-}
+];
+     var callback = () => api.sendMessage({body:`「 ${know} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/15.mp4")).on("close",() => callback());
+   };
+
+
