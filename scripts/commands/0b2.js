@@ -1,5 +1,4 @@
-module.exports = {
-  config: {
+module.exports.config = {
     name: "create",
     version: "1.0.0",
     permission: 0,
