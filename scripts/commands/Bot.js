@@ -18,10 +18,10 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["ATTITUDE VIDEOS FROM~ MAHABUB RAHMAN"];
+   var hi = [" ANIME"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-   "https://drive.google.com/file/d/1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi/view?usp=drivesdk",
+   "",
    "https://drive.google.com/uc?id=16lOXxs-Z9u-mxttFnwWzdUHvrP55aHnZ"
 
 ];
