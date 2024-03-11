@@ -18,7 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["-💖ᴋʜᴀɴ ʀᴀʜᴜʟ ʀᴋ💖-"];
+   var hi = ["-💖 VIDEO FROM MAHABUB RAHMAN💖-"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
