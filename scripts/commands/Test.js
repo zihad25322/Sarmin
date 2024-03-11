@@ -17,7 +17,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ event, api, Users }) => {
   const fs = global.nodemodule["fs-extra"];
   var { threadID, messageID, body, senderID } = event; const thread = global.data.threadData.get(threadID) || {};
-  if (typeof thread["rahat"] !== "undefined" && thread["rahat"] == false) return;
+  if (typeof thread["Mahabub"] !== "undefined" && thread["rahat"] == false) return;
 
   let name = await Users.getNameUser(event.senderID);
   if (senderID == global.data.botID) return;
