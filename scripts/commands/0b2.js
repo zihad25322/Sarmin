@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: "bing",
+    name: "create",
     version: "1.0.0",
     permission: 0,
     credits: "Nayan", //imran
