@@ -18,7 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["~RANDOM ANIME VIDEO~"];
+   var hi = ["~THISH IS MY ADMIN~\n\nNAME: MAHABUB RAHMAN🔰\n\nAGE:17+👀\n\nRELATIONSHIP: PURE SINGLE ULTRA PRO MAX 👌✊\n\n_۵ღ︵🩷🪽 "];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
