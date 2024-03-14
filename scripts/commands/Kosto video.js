@@ -1,10 +1,10 @@
 module.exports.config = {
-  name: "Test", 
+  name: "Kosto", 
   version: "1.0.0", 
   permission: 0,
-  credits: "Imran Ahmed",
+  credits: "Imran Ahmed_X_Mahabub Rahman",
   description: "example",
-  prefix: false,
+  prefix: true,
   category: "Fun", 
   usages: "user", 
   cooldowns: 5,
