@@ -1,62 +1,13 @@
-/**
-
-
-
-* @EMON HAWLADAR
-
-
-
-* @warn Do not edit code or edit credits
-
-
-
-* @Dont Change This Credits Otherwisw Your Bot Lol
-
-
-
-*/
-
-
-
 module.exports.config = {
-
-
-
-  name: "cat",
-
-
-
-  version: "1.0.0",
-
-
-
-  Permssion: 0,
-
-
-
-  credits: "EMon-BHai",
-
-
-
-  Prefix: false,
-
-
-
-  description: "Dont Change This Credits Otherwisw Your Bot Lol",
-
-
-
-  usages: "[ask]",
-
-
-
-  Category: "SIM ✅",
-
-
-
-  cooldowns: 2
-
-
+name: "cat",
+version: "1.0.0",
+Permssion: 0,
+Prefix: true,
+credits: "nayan",
+description: "",
+usages: "[ask]",
+category: "SIM ✅",
+cooldowns: 2
 
 };
 
