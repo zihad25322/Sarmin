@@ -1,13 +1,19 @@
 module.exports.config = {
-	name: "cat",
-    version: "1.1.1",
-prefix: true,
-	permssion: 0,
-	credits: "John Lester", 
-	description: "Just Respond",
-	category: "no prefix",
-    cooldowns: 5, 
+  name: "cat", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Imran Ahmed",
+  description: "example",
+  prefix: true,
+  category: "Fun", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  }
 };
+
 
 
 module.exports.run = async ({ api, event,args }) => {
@@ -42,4 +48,4 @@ api.sendMessage(plaintext, event.threadID, event.messageID)
 
 
 
-	}
+}
