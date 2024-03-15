@@ -1,12 +1,97 @@
-const fs = require("fs");
+/**
+
+
+
+* @EMON HAWLADAR
+
+
+
+* @warn Do not edit code or edit credits
+
+
+
+* @Dont Change This Credits Otherwisw Your Bot Lol
+
+
+
+*/
+
+
+
 module.exports.config = {
-	name: "janu",
-    version: "1.1.1",
-prefix: true,
-	permssion: 0,
-	credits: "John Lester", 
-	description: "Just Respond",
-	category: "no prefix",
-    cooldowns: 5, 
+
+
+
+  name: "cat",
+
+
+
+  version: "1.0.0",
+
+
+
+  Permssion: 0,
+
+
+
+  credits: "EMon-BHai",
+
+
+
+  Prefix: false,
+
+
+
+  description: "Dont Change This Credits Otherwisw Your Bot Lol",
+
+
+
+  usages: "[ask]",
+
+
+
+  Category: "SIM ✅",
+
+
+
+  cooldowns: 2
+
+
+
 };
- var _0xc77e=["","split","0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/","slice","indexOf","","",".","pow","reduce","reverse","0"];function _0xe55c(d,e,f){var g=_0xc77e[2][_0xc77e[1]](_0xc77e[0]);var h=g[_0xc77e[3]](0,e);var i=g[_0xc77e[3]](0,f);var j=d[_0xc77e[1]](_0xc77e[0])[_0xc77e[10]]()[_0xc77e[9]](function(a,b,c){if(h[_0xc77e[4]](b)!==-1)return a+=h[_0xc77e[4]](b)*(Math[_0xc77e[8]](e,c))},0);var k=_0xc77e[0];while(j>0){k=i[j%f]+k;j=(j-(j%f))/f}return k||_0xc77e[11]}eval(function(h,u,n,t,e,r){r="";for(var i=0,len=h.length;i<len;i++){var s="";while(h[i]!==n[e]){s+=h[i];i++}for(var j=0;j<n.length;j++)s=s.replace(new RegExp(n[j],"g"),j);r+=String.fromCharCode(_0xe55c(s,e,10)-t)}return decodeURIComponent(escape(r))}("jbnMjnKMjjdMbrKMjbbMjjjMdrdMjjjMbrbMjndMjnKMjnbMbrrMjnnMdrdMjbrMjdnMjnrMjjdMjbbMjjjMdbKMbrdMjjjMjnrMbrrMKbrMddnMKbrMjdnMjnnMbrnMjnrMjjKMKbrMjjbMbrKMjnrMjjKMbrrMjbKMjnKMjnrMKbrMKndMbKKMKbrMjdnMjndMjbKMdrrMKbrMjjjMbrdMjjjMjnrMbrrMKbrMbKjMKnjMKbrMbKKMKbrMjbKMjjbMKbrMKndMKbKMKndMjjjMbrdMjjjMjnrMbrrMdrdMjjrMjnKMjjdMbrnMdrdMjbKMjnrMjjdMjjjMbrbMdnnMjjbMKndMKbdMjbdMjdnMjnrMbrKMKbdMKnjMKbrMddnMddnMddnMKbrMdrbMKbrMbKdMbKdMKbrMjjjMbrdMjjjMjnrMbrrMdrdMjjrMjnKMjjdMbrnMdrdMjbKMjnrMjjdMjjjMbrbMdnnMjjbMKndMKbdMdnrMjdnMjnrMbrKMKbdMKnjMKbrMddnMddnMddnMKbrMdrbMKnjMKnjMKbrMjnbMjjjMbrrMbrKMjnbMjnrMddjMKbrMjjKMjnKMjnrMjnnMbrrMKbrMjdnMjnbMjjnMjnnMKbrMddnMKbrMjjjMbrdMjjjMjnrMbrrMdrdMjjrMjnKMjjdMbrnMdrdMjnnMjndMjbbMjbKMbrrMKndMdrjMjdrMjnnMKnnMdrjMKnjMddjMKbrMjdnMjnbMjjnMjnnMdrdMjnnMjbrMjbKMjjbMbrrMKndMKnjMddjMKbrMjjKMjnKMjnrMjnnMbrrMKbrMjnjMKbrMddnMKbrMjdnMjnbMjjnMjnnMdrdMjbdMjnKMjbKMjnrMKndMKbdMKbrMKbdMKnjMddjMKbrMbrrMjnbMbrnMKbrMbKKMKbrMjjKMjnKMjnrMjnnMbrrMKbrMjnbMjjjMjnnMjndMjnKMjnrMjnnMjjjMKbrMddnMKbrMjdnMbrjMjdnMjbKMbrrMKbrMjdnMbrbMjbKMjnKMjnnMdrdMjjnMjjjMbrrMKndMjdbMjbrMbrrMbrrMjndMjnnMdddMdrjMdrjMjnnMjbKMjbnMdrKMjdnMjndMjbKMdrKMbKrMjjbMjjnMddrMdrdMjnKMjnrMjnbMjjjMjnrMjjdMjjjMjnbMdrdMjjKMjnKMjbnMdrjMjnnMjbKMjbnMdjKMjnbMjjjMjndMjbbMbrnMddnMKbbMbKKMjnjMbKjMjdbMKnjMKbrMjjKMjnKMjnrMjnnMbrrMKbrMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrdMjjjMjnnMjndMjnKMjnrMjnnMjjjMKbrMddnMKbrMjjbMjnKMjnbMjbnMjdnMbrrMdbdMjnKMjnrMbrrMKndMjnbMjjjMjnnMjndMjnKMjnrMjnnMjjjMdrdMjjdMjdnMbrrMjdnMdrdMjbnMjjjMjnnMjnnMjdnMjjnMjjjMKnjMddjMKbrMjdnMjndMjbKMdrdMjnnMjjjMjnrMjjdMdnjMjjjMjnnMjnnMjdnMjjnMjjjMKndMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrdMjjjMjnnMjndMjnKMjnrMjnnMjjjMdrrMKbrMjjjMbrdMjjjMjnrMbrrMdrdMbrrMjbrMjnbMjjjMjdnMjjdMdbnMdbrMdrrMKbrMjjjMbrdMjjjMjnrMbrrMdrdMjbnMjjjMjnnMjnnMjdnMjjnMjjjMdbnMdbrMKnjMddjMKbrMbKjMKbrMjjKMjdnMbrrMjjKMjbrMKbrMKndMjjjMjnbMjnbMjnKMjnbMKnjMKbrMbKKMKbrMjjKMjnKMjnrMjnnMjnKMjbbMjjjMdrdMjjjMjnbMjnbMjnKMjnbMKndMjjjMjnbMjnbMjnKMjnbMKnjMddjMKbrMjdnMjndMjbKMdrdMjnnMjjjMjnrMjjdMdnjMjjjMjnnMjnnMjdnMjjnMjjjMKndMKnKMjKjMjjjMjnnMKbrMjbnMbrnMKbrMdndMjnKMbrdMjjjMKbrMjjrMjnKMjbbMjnKMKKdbMnKKMnjKMnnrMKKdbMnKKMnrrMbjjMKKdbMnKKMnrrMnrrMKnKMdrrMKbrMjjjMbrdMjjjMjnrMbrrMdrdMbrrMjbrMjnbMjjjMjdnMjjdMdbnMdbrMdrrMKbrMjjjMbrdMjjjMjnrMbrrMdrdMjbnMjjjMjnnMjnnMjdnMjjnMjjjMdbnMdbrMKnjMddjMKbrMbKjMKrdMbKjMddjMKrdMjbnMjnKMjjdMbrKMjbbMjjjMdrdMjjjMbrbMjndMjnKMjnbMbrrMjnnMdrdMjnbMbrKMjnrMKbrMddnMKbrMjdnMjnnMbrnMjnrMjjKMKbrMjjbMbrKMjnrMjjKMbrrMjbKMjnKMjnrMKndMbKKMjdnMjndMjbKMdrrMKbrMjjjMbrdMjjjMjnrMbrrMbKjMKnjMKbrMbKKMKrdMbKjMddjMKrdMjjbMbrKMjnrMjjKMbrrMjbKMjnKMjnrMKbrMjjbMjnKMjnbMjbnMjdnMbrrMdbdMjnKMjnrMbrrMKndMbrrMjjjMbrbMbrrMKnjMKbrMbKKMKbrMjjKMjnKMjnrMjnnMbrrMKbrMjjbMjnKMjnrMbrrMdnjMjdnMjndMjndMjbKMjnrMjjnMKbrMddnMKbrMbKKMKbrMjdnMdddMKbrMKbdMKKdbMnrnMbnbMnnbMKbdMdrrMKbrMjjrMdddMKbrMKbdMKKdbMnrnMbnbMnnnMKbdMdrrMKbrMjjKMdddMKbrMKbdMKKdbMnrnMbnbMKrrrMKbdMdrrMKbrMjjdMdddMKbrMKbdMKKdbMnrnMbnbMKrrKMKbdMdrrMKbrMjjjMdddMKbrMKbdMKKdbMnrnMbnbMKrrdMKbdMdrrMKbrMjjbMdddMKbrMKbdMKKdbMnrnMbnbMKrrjMKbdMdrrMKbrMjjnMdddMKbrMKbdMKKdbMnrnMbnnMbdrMKbdMdrrMKbrMjbrMdddMKbrMKbdMKKdbMnrnMbnnMbdKMKbdMdrrMKbrMjbKMdddMKbrMKbdMKKdbMnrnMbnnMbddMKbdMdrrMKbrMjbdMdddMKbrMKbdMKKdbMnrnMbnnMbdjMKbdMdrrMKbrMjbjMdddMKbrMKbdMKKdbMnrnMbnnMbdbMKbdMdrrMKbrMjbbMdddMKbrMKbdMKKdbMnrnMbnnMbdnMKbdMdrrMKbrMjbnMdddMKbrMKbdMKKdbMnrnMbnnMbjrMKbdMdrrMKbrMjnrMdddMKbrMKbdMKKdbMnrnMbnnMbjKMKbdMdrrMKbrMjnKMdddMKbrMKbdMKKdbMnrnMbnnMbjdMKbdMdrrMKbrMjndMdddMKbrMKbdMKKdbMnrnMbnnMbjjMKbdMdrrMKbrMjnjMdddMKbrMKbdMKKdbMnrnMbnnMbjbMKbdMdrrMKbrMjnbMdddMKbrMKbdMKKdbMnrnMbnnMbjnMKbdMdrrMKbrMjnnMdddMKbrMKbdMKKdbMnrnMbnnMbbrMKbdMdrrMKbrMbrrMdddMKbrMKbdMKKdbMnrnMbnnMbbKMKbdMdrrMKbrMbrKMdddMKbrMKbdMKKdbMnrnMbnnMbbdMKbdMdrrMKbrMbrdMdddMKbrMKbdMKKdbMnrnMbnnMbbjMKbdMdrrMKbrMbrjMdddMKbrMKbdMKKdbMnrnMbnnMbbbMKbdMdrrMKbrMbrbMdddMKbrMKbdMKKdbMnrnMbnnMbbnMKbdMdrrMKbrMbrnMdddMKbrMKbdMKKdbMnrnMbnnMbnrMKbdMdrrMKbrMbKrMdddMKbrMKbdMKKdbMnrnMbnnMbnKMKbdMdrrMKbrMdjjMdddMKbrMKbdMKKdbMnrnMbnbMnKdMKbdMdrrMKbrMdjbMdddMKbrMKbdMKKdbMnrnMbnbMnKjMKbdMdrrMKbrMdjnMdddMKbrMKbdMKKdbMnrnMbnbMnKbMKbdMdrrMKbrMdbrMdddMKbrMKbdMKKdbMnrnMbnbMnKnMKbdMdrrMKbrMdbKMdddMKbrMKbdMKKdbMnrnMbnbMndrMKbdMdrrMKbrMdbdMdddMKbrMKbdMKKdbMnrnMbnbMndKMKbdMdrrMKbrMdbjMdddMKbrMKbdMKKdbMnrnMbnbMnddMKbdMdrrMKbrMdbbMdddMKbrMKbdMKKdbMnrnMbnbMndjMKbdMdrrMKbrMdbnMdddMKbrMKbdMKKdbMnrnMbnbMndbMKbdMdrrMKbrMdnrMdddMKbrMKbdMKKdbMnrnMbnbMndnMKbdMdrrMKbrMdnKMdddMKbrMKbdMKKdbMnrnMbnbMnjrMKbdMdrrMKbrMdndMdddMKbrMKbdMKKdbMnrnMbnbMnjKMKbdMdrrMKbrMdnjMdddMKbrMKbdMKKdbMnrnMbnbMnjdMKbdMdrrMKbrMdnbMdddMKbrMKbdMKKdbMnrnMbnbMnjjMKbdMdrrMKbrMdnnMdddMKbrMKbdMKKdbMnrnMbnbMnjbMKbdMdrrMKbrMjrrMdddMKbrMKbdMKKdbMnrnMbnbMnjnMKbdMdrrMKbrMjrKMdddMKbrMKbdMKKdbMnrnMbnbMnbrMKbdMdrrMKbrMjrdMdddMKbrMKbdMKKdbMnrnMbnbMnbKMKbdMdrrMKbrMjrjMdddMKbrMKbdMKKdbMnrnMbnbMnbdMKbdMdrrMKbrMjrbMdddMKbrMKbdMKKdbMnrnMbnbMnbjMKbdMdrrMKbrMjrnMdddMKbrMKbdMKKdbMnrnMbnbMnbbMKbdMdrrMKbrMjKrMdddMKbrMKbdMKKdbMnrnMbnbMnbnMKbdMdrrMKbrMjKKMdddMKbrMKbdMKKdbMnrnMbnbMnnrMKbdMdrrMKbrMjKdMdddMKbrMKbdMKKdbMnrnMbnbMnnKMKbdMdrrMKbrMjKjMdddMKbrMKbdMKKdbMnrnMbnbMnndMKbdMdrrMKbrMjKbMdddMKbrMKbdMKKdbMnrnMbnbMnnjMKbdMKbrMbKjMddjMKbrMjbbMjjjMbrrMKbrMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrbMjjjMbrbMbrrMKbrMddnMKbrMKbdMKbdMddjMKbrMjjbMjnKMjnbMKbrMKndMjjKMjnKMjnrMjnnMbrrMKbrMjjKMjbrMjdnMjnbMKbrMjnKMjjbMKbrMbrrMjjjMbrbMbrrMKnjMKbrMbKKMKbrMjbKMjjbMKbrMKndMjjKMjbrMjdnMjnbMKbrMjbKMjnrMKbrMjjbMjnKMjnrMbrrMdnjMjdnMjndMjndMjbKMjnrMjjnMKnjMKbrMbKKMKbrMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrbMjjjMbrbMbrrMKbrMKnnMddnMKbrMjjbMjnKMjnrMbrrMdnjMjdnMjndMjndMjbKMjnrMjjnMjKnMjjKMjbrMjdnMjnbMjdKMddjMKbrMbKjMKbrMjjjMjbbMjnnMjjjMKbrMbKKMKbrMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrbMjjjMbrbMbrrMKbrMKnnMddnMKbrMjjKMjbrMjdnMjnbMddjMKbrMbKjMKbrMbKjMKbrMjnbMjjjMbrrMbrKMjnbMjnrMKbrMjjbMjnKMjnbMjbnMjdnMbrrMbrrMjjjMjjdMjrbMjjjMbrbMbrrMddjMKrdMbKjMKrdM",40,"rKdjbnMfi",28,6,35)) 
+
+
+
+module.exports.run = async ({ api, event,args }) => {
+
+
+
+const axios = require("axios");
+
+
+
+let query = args.join(" ");
+
+
+
+if (!query)
+
+
+
+    return api.sendMessage(`Wrong Command\nUse this: ${global.config.PREFIX}${this.config.name} Ki koros \n\n[ Teach: ${this.config.name} \n example : teach Tmr Name Ki - ${this.config.name} \n\n support language English - Banglish ✅ ]`, event.threadID, event.messageID);
+
+
+
+const res = await axios.get(`http://ip.minehost.fun:25444/sim?type=ask&ask=${query}`);
+
+
+
+var plaintext = res.data.answer;
+
+
+
+api.sendMessage(plaintext, event.threadID, event.messageID)
+
+
+
+	}
