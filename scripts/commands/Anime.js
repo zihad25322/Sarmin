@@ -22,7 +22,9 @@ const fs = global.nodemodule["fs-extra"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
-  "https://drive.google.com/uc?id=1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi",
+    "https://drive.google.com/uc?id=1DQPkM5wU2q74KFOqhcwrnlVsPJx81tR0",
+    "https://drive.google.com/uc?id=1DXfy1D0bxTlTM0g0jfTZBBEAP5CI9VvW",
+    "https://drive.google.com/uc?id=1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi",
     "https://drive.google.com/uc?id=1-A5cxY9NV7GxqlMoItAsZyYG4xKTDvRS",
     "https://drive.google.com/uc?id=1-5ySZza9gL2EMiyb9ro_qy_JP_egBUHi",
     "https://drive.google.com/uc?id=1-71QF5wQaQy6N_JFVRYbHeKJxRX6ryXp",
