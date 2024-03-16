@@ -1,4 +1,3 @@
-
 module.exports.config = {
 	name: "🥰",
 	version: "1.0.2",
@@ -10,7 +9,13 @@ module.exports.config = {
 	usages: "[tag]",
 	cooldowns: 5
 };
-
+module.exports.run = async function({ api, args, Users, event}) {
+    var mention = Object.keys(event.mentions)[0];
+    if(!mention) return api.sendMessage("আপনি কার প্রতি মুগ্ধ এমন 1 জনকে @ম্যানশন করতে হবে", event.threadID);
+ let name =  event.mentions[mention];
+    var arraytag = [];
+        arraytag.push({id: mention, tag: name});
+    var a = function (a) { api.sendMessage(a, event.threadID); }
 a("শুনো কিছু কথা😌");
 setTimeout(() => {a({body: "নারী কে নষ্ট বলার অধিকার কোনো পুরুষের নেই... কারণ পুরুষ ছাড়া নারী নষ্ট হয় না।🙂" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "তুমি হয়তো জানো আমি তোমাকে কতটা ভালোবেসে ফেলেছি, যদি তুমি জানতে তাহলে তুমি আমায় কাছে টেনে নিতে।" + " " + name, mentions: arraytag})}, 5000);
