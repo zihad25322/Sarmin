@@ -6,7 +6,7 @@
 module.exports.config = {
     name: "hug",
     version: "2.0.0",
-    permssion: 0,
+    permssion: 2,
     credits: "Mahabub Rahman",
     description: "",
     prefix: true,
