@@ -6,7 +6,7 @@
 module.exports.config = {
     name: "fuckv2",
     version: "2.0.0",
-    permssion: 0,
+    permssion: 2,
     credits: "Mahabub Rahaman",
     description: "",
     prefix: true,
