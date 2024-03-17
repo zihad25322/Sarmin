@@ -19,7 +19,7 @@ event.body.indexOf("💔")==0 ||
 event.body.indexOf("💔")==0 ||  event.body.indexOf("💔")==0) {
 		var msg = {
 				body: "জাঁনেঁ মাঁনঁ তোঁমাঁরঁ কিঁ ব্রেঁকাঁপঁ হঁয়েঁছেঁ..!👀",
-				attachment: fs.createReadStream(__dirname + `/cache/Bkup`)
+				attachment: fs.createReadStream(__dirname + `/cache/Bkup.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🤫", event.messageID, (err) => {}, true)
