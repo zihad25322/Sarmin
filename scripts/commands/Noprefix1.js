@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "🤭",
+	name: "😭",
     version: "1.0.1",
 	permssion: 0,
   prefix: true,
@@ -13,16 +13,16 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("🙊")==0 || 
-event.body.indexOf("🙈")==0 || 
-event.body.indexOf("🫣")==0 ||    
-event.body.indexOf("🫢")==0 ||  event.body.indexOf("🤭")==0) {
+	if (event.body.indexOf("💔")==0 || 
+event.body.indexOf("💔")==0 || 
+event.body.indexOf("💔")==0 ||    
+event.body.indexOf("💔")==0 ||  event.body.indexOf("💔")==0) {
 		var msg = {
-				body: "এঁতঁ সঁরঁমঁ পাঁইঁয়োঁ নাঁ শুঁনাঁ😚🥀",
-				attachment: fs.createReadStream(__dirname + `/noprefix/sorom.mp3`)
+				body: "জাঁনেঁ মাঁনঁ তোঁমাঁরঁ কিঁ ব্রেঁকাঁপঁ হঁয়েঁছেঁ..!👀",
+				attachment: fs.createReadStream(__dirname + `/cache/Bkup`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😁", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤫", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
