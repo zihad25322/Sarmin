@@ -7,7 +7,7 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "TRISHA-BOT",
-  "PREFIX": ".",
+  "PREFIX": "/",
   "OPERATOR": [
     "100014754734049",
     ""
