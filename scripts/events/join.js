@@ -64,8 +64,8 @@ ____________________________________\n\nযেকোনো কমান্ড �
 \n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
 ____________________________________
 যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS 
-𝙈𝘼𝙃𝘼𝘽𝙐𝙍_কে নক করতে পারেন 
-👉FB link: https://www.facebook.com/mdkajol.hossen.140
+OME VAIকে নক করতে পারেন 
+👉FB link: https://www.facebook.com/profile.php?id=61552248422194
 -
 `, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")}, threadID));
 })
