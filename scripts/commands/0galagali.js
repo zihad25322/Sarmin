@@ -44,7 +44,7 @@ react.includes("vuda") ||
 react.includes("heda") || 
 react.includes("bap")) {
 		var msg = {
-				body: "গালাগালি করলে জিব্বা কাইটা দিবো কিন্তু -!!😤👊🔪"
+				body: "গালাগালি দিলে তোর মাকে তুই চুদিস  -!!😤👊🔪"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
