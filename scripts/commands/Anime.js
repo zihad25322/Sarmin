@@ -2,7 +2,7 @@ module.exports.config = {
   name: "anime", 
   version: "1.0.0", 
   permission: 0,
-  credits: "Imran Ahmed_X_Mahabub Rahman",
+  credits: "OME Vai",
   description: "example",
   prefix: false,
   category: "Fun", 
