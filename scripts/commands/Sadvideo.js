@@ -2,7 +2,7 @@ module.exports.config = {
   name: "sadvideo", 
   version: "1.0.0", 
   permission: 0,
-  credits: "Imran Ahmed_x_Mahabub Rahman",
+  credits: "  ome ",
   description: "example",
   prefix: false,
   category: "Fun", 
@@ -18,7 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["-- 💙•༎♡༎•💙──🦋ლ-ლ 𝘿𝙤𝙣,𝙩..𝙩𝙧𝙪𝙨𝙩 𝙢𝙚 𝙢𝙮 𝙨𝙢𝙞𝙡𝙚 \nঅনেক কষ্ট নিয়েও হাসতে পারি..!!🙂💔🥀\n💙•༎Mahabub Rahman"];
+   var hi = ["-- 💙•༎♡༎•💙──🦋ლ-ლ 𝘿𝙤𝙣,𝙩..𝙩𝙧𝙪𝙨𝙩 𝙢𝙚 𝙢𝙮 𝙨𝙢𝙞𝙡𝙚 \nঅনেক কষ্ট নিয়েও হাসতে পারি..!!🙂💔🥀\n💙•༎ ome"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
