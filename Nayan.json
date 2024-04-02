@@ -7,7 +7,7 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "OME Bot",
-  "PREFIX": "&",
+  "PREFIX": "m",
   "OPERATOR": [
     "100014754734049",
     ""
