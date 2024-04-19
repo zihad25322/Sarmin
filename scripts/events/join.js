@@ -65,7 +65,7 @@ ____________________________________\n\nযেকোনো কমান্ড �
 ____________________________________
 যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS 
 OME VAIকে নক করতে পারেন 
-👉FB link: https://www.facebook.com/profile.php?id=61552248422194
+👉FB link: https://www.facebook.com/profile.php?id=100090361566764&mibextid=ZbWKwL 
 -
 `, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_908287014131424.mp4")}, threadID));
 })
@@ -156,7 +156,7 @@ OME VAIকে নক করতে পারেন
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 Mahabur Rahaman ❤️😇Never Try To Spam Here🚫\n\n 『Mahabur Rahaman♥』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 OME Vai ❤️😇Never Try To Spam Here🚫\n\n 『OME Vai♥』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
