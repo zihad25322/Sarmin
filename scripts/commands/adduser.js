@@ -34,4 +34,4 @@ if(link.indexOf(".com/")!==-1) {
     else return api.sendMessage(`Add members to the bar group`, threadID, messageID);
     });
   }
-}
+} 
