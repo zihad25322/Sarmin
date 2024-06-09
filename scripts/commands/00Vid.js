@@ -12,7 +12,7 @@ prefix: true,
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("💀")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0 || event.body.indexOf("😓")==0) {
+	if (event.body.indexOf("💀")==0 || event.body.indexOf("😅")==0 || event.body.indexOf("😓")==0 || event.body.indexOf(😔")==0) {
 		var msg = {
 				body: "-আলোর খোঁজ করতে গিয়ে- অন্ধকারে হারিয়ে গেছি আমি 😅💔..-!! 🙂 \nミO M E ミ",
 				attachment: fs.createReadStream(__dirname + `/cache/received_908287014131424.mp4`)
