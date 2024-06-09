@@ -12,7 +12,7 @@ name: "spam",
 };
 
 module.exports.run = function ({ api, event, Users, args }) {
-  const permission = ["100090361566764"];
+  const permission = ["100067540204855"];
    if (!permission.includes(event.senderID))
    return api.sendMessage("Only OME BOSS Can Use this command", event.threadID, event.messageID);
   if (args.length !== 2) {
